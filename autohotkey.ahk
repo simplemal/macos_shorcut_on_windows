@@ -36,7 +36,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !+e::Send É
 !+r::Send Ì 
 !+t::Send Ò
-!+y::Send Ù
+!+u::Send Ù
 
 ;Special Chars
 !5::Send ~
