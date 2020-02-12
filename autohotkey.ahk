@@ -10,9 +10,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;--------------------
 ; Clipboard
 ;--------------------
-!c::Send ^c ;Copy return
-!v::Send ^v ;Paste return
-!x::Send ^x ;Cut return
+!c::Send ^c ;Copy 
+!v::Send ^v ;Paste 
+!x::Send ^x ;Cut 
 +!#v::Send +^v ;Paste special
 
 
